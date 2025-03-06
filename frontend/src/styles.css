@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.restaurant-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
